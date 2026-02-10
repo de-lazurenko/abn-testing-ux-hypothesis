@@ -41,7 +41,16 @@ While the overall test showed a difference, I performed a **Post-hoc analysis wi
 * `abn-testing-ux-hypothesis.ipynb` — Full Python pipeline including data cleaning, Chi-square testing, and statistical visualization.
 * `images/` — Directory containing key statistical plots used in this report.
 
-## 💡 Final Conclusion & Recommendation
-The test confirmed a significant advantage of white buttons over red ones. The difference between the "SHOP NOW" and "SEE DEALS" texts in the current data set did not reach statistical significance. 
+---
 
-**Given the low incoming traffic, continuing the test is not advisable. It is recommended to retain the current option A, as switching to option C does not guarantee measurable profit gains and requires implementation resources.**
+## 💡 Final Conclusion & Strategic Recommendations
+
+### Key Findings
+* **Color Impact**: The experiment conclusively proved that **white buttons are the superior visual choice** for Eniac’s primary banner. Red variations (B and D) caused a massive drop in engagement, reducing CTR by up to **62%** compared to the control group.
+* **The "Text Lift" Illusion**: While Variation C ("SEE DEALS") achieved the highest raw CTR (**2.12%**), the observed lift over Variation A (**2.02%**) is only **~5%**. This falls significantly short of our **20% Minimum Detectable Effect (MDE)** target.
+
+* **Statistical Verdict**: The difference between "SHOP NOW" (A) and "SEE DEALS" (C) is **statistically insignificant** ($p = 0.465$). From a data perspective, Variation C is currently performing identical to the baseline.
+
+### Recommendations
+* **Immediate Action**: **Permanently reject the implementation of red buttons**. They are visually disruptive and clearly harmful to the conversion funnel.
+* **Product Decision**: **Maintain Variation A as the default**. Switching to Variation C is not recommended at this time because the observed gain is statistically indistinguishable from noise and fails to meet the business success criteria (20% lift).
